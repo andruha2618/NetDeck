@@ -1,19 +1,27 @@
-# Rift Manager
+# NetDeck
 
-Публичный репозиторий готовых выпусков Rift Manager. Исходный код приложения здесь не размещается.
+NetDeck — новое название Rift Manager. Это публичный репозиторий готовых выпусков; исходный Xcode-проект здесь не размещается.
 
-## Загрузка
+## macOS — NetDeck 2.0.5 (205)
 
-**macOS:** выпуск 1.0.6 для macOS 13+ на Intel и Apple Silicon. Скачайте [DMG](https://github.com/andruha2618/RiftManager-Releases/releases/download/v1.0.6/RiftManager-1.0.6-43-macOS.dmg) или [ZIP](https://github.com/andruha2618/RiftManager-Releases/releases/download/v1.0.6/RiftManager-1.0.6-43-macOS.zip) и перенесите `Rift Manager.app` в папку «Программы». Оба файла содержат одно универсальное приложение. Для помощника App Store на Apple Silicon может потребоваться Rosetta 2. [Контрольные суммы SHA-256](https://github.com/andruha2618/RiftManager-Releases/releases/download/v1.0.6/SHA256SUMS.txt) приложены к выпуску. Приложение пока не нотарифицировано Apple, поэтому macOS может показать предупреждение при первом запуске.
+[Скачать DMG](https://github.com/andruha2618/NetDeck/releases/download/v2.0.5/NetDeck-2.0.5-205-macOS.dmg) · [Скачать ZIP](https://github.com/andruha2618/NetDeck/releases/download/v2.0.5/NetDeck-2.0.5-205-macOS.zip) · [Контрольные суммы](https://github.com/andruha2618/NetDeck/releases/download/v2.0.5/SHA256SUMS.txt) · [Описание выпуска](https://github.com/andruha2618/NetDeck/releases/tag/v2.0.5)
 
-**Windows:** выпуск 1.0.0 для Windows 10/11 x64. Скачайте [RiftManager-1.0.0-Windows-x64-Setup.exe](https://github.com/andruha2618/RiftManager-Releases/releases/download/windows-v1.0.0/RiftManager-1.0.0-Windows-x64-Setup.exe) и запустите установщик. Он устанавливает программу для текущего пользователя; права администратора не нужны. [Контрольная сумма SHA-256](https://github.com/andruha2618/RiftManager-Releases/releases/download/windows-v1.0.0/RiftManager-1.0.0-Windows-x64-Setup.exe.sha256) приложена к выпуску.
+Закройте прежнюю версию, откройте DMG и перенесите `NetDeck.app` в «Программы». ZIP также содержит готовое приложение. Существующие настройки Rift Manager сохраняются; старую копию после успешной установки NetDeck можно удалить.
 
-Файлы `Source code (zip/tar.gz)`, автоматически показанные GitHub, содержат только документы этого репозитория.
+В выпуске исправлены вход Apple ID и подстановка почты из метаданных подключённого iPhone. При каждом запуске и смене телефона требуется новый вход с паролем; 2FA запрашивается по требованию Apple. Сохранены Rift UI, загрузка/установка IPA и управление устройством. Новая стилистика по референсам NetRunner будет отдельным этапом.
 
-## Обновления
+Исполняемый файл и Core собраны для arm64 и x86_64. На физическом Intel Mac этот выпуск не проверялся. Некоторые встроенные arm64-компоненты USB/backup требуют macOS 26+. Создание зашифрованной резервной копии может завершиться ошибкой 255.
 
-На macOS обновления идут через Sparkle, на Windows — через WinSparkle. В Windows-версии автоматическая проверка включена по умолчанию; её можно отключить или запустить вручную в «Настройки → Обновления». Пакеты обоих каналов проверяются подписью Ed25519. Windows и macOS используют разные каналы и ключи подписи.
+Подпись приложения локальная ad-hoc, нотариального заверения Apple нет: macOS может показать предупреждение Gatekeeper. Подпись ZIP обновления Sparkle проверяется отдельно и не заменяет нотариальное заверение.
 
-Перед обновлением завершите загрузки и операции с устройством. Если автоматическое обновление не установилось, скачайте актуальный выпуск из [Releases](https://github.com/andruha2618/RiftManager-Releases/releases).
+## Windows
+
+Текущий опубликованный выпуск Windows — [Rift Manager 2.0.4 x64](https://github.com/andruha2618/NetDeck/releases/tag/windows-v2.0.4). Переименование и новые изменения macOS пока не перенесены в Windows. Её установщики и канал обновлений сохранены.
+
+## Обновления и предыдущие выпуски
+
+macOS использует подписанный [канал Sparkle](https://raw.githubusercontent.com/andruha2618/NetDeck/main/appcast-macos.xml). Пакет обновления проверяется существующим ключом Ed25519. При обновлении прежней установки имя `.app` на диске может остаться `Rift Manager.app`, а название внутри приложения будет NetDeck.
+
+Предыдущие выпуски доступны в [Releases](https://github.com/andruha2618/NetDeck/releases). Старые ссылки репозитория проверены после переименования. Автоматически показанные GitHub файлы `Source code (zip/tar.gz)` содержат только документы этого репозитория.
 
 [Изменения](CHANGELOG.md) · [Поддержка](SUPPORT.md) · [Конфиденциальность](PRIVACY.md)
