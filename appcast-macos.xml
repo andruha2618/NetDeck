@@ -7,6 +7,15 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>NetDeck (formerly Rift Manager) update feed</description>
         <language>ru</language>
         <item>
+            <title>NetDeck 2.0.8</title>
+            <pubDate>Sat, 14 Nov 2026 11:50:24 GMT</pubDate>
+            <sparkle:version>208</sparkle:version>
+            <sparkle:shortVersionString>2.0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text">Обновлён интерфейс NetDeck. Исправлены переключение и раскрытие сайдбара, быстрые переходы, появление и закрытие диалогов. Сохранено перспективное раскрытие входа/2FA; доработаны анимации сведений устройства, шкал и приложений.</description>
+            <enclosure url="https://github.com/andruha2618/NetDeck/releases/download/v2.0.8/NetDeck-2.0.8-208-macOS.zip" length="127035448" type="application/octet-stream" sparkle:edSignature="lhG+6WlXM0DFlytle3RsZh2pJMvPyCJuYJVVFM0+WC72MNV5TVKtA2x3Oagx8/IzeyHX704SF9qcXuPvWLFlCg=="></enclosure>
+        </item>
+        <item>
             <title>NetDeck 2.0.5</title>
             <pubDate>Fri, 13 Nov 2026 07:40:48 GMT</pubDate>
             <sparkle:version>205</sparkle:version>
@@ -70,6 +79,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: w1s1zcBlMKb7dnpwJUa0L8HByx9G9yLFwBuq+FikLZAM+g/uCNrnS8qBMsPkOukMuTh1nH9asOZkke3V7oahAg==
-length: 7272
+edSignature: vXvBAoiWPflhGlD97tXIz47oqmcvXMHbHtcOrvFb2dP7DuGz96kylQFa7C0gxGo4D0F52T3acC0Lfr7mExs9AQ==
+length: 8385
 -->
