@@ -7,6 +7,15 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>NetDeck (formerly Rift Manager) update feed</description>
         <language>ru</language>
         <item>
+            <title>NetDeck 2.0.9</title>
+            <pubDate>Sun, 15 Nov 2026 07:02:38 GMT</pubDate>
+            <sparkle:version>209</sparkle:version>
+            <sparkle:shortVersionString>2.0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text">Исправлены матовые углы подложки диалогов и плавность переходов между разделами. Выделение сайдбара перемещается плавно, подписи сохраняют контраст. Обзор масштабируется по ширине и высоте окна: телефон и все карточки остаются в одной компоновке.</description>
+            <enclosure url="https://github.com/andruha2618/NetDeck/releases/download/v2.0.9/NetDeck-2.0.9-209-macOS.zip" length="127050915" type="application/octet-stream" sparkle:edSignature="P8YVfx3Tcr+BBCS/lUE9zWdQWanMkixk4Ck2/WbwDvIr5FQOZxpJ644OJ7eUotbQLIN+DH8FSOsuvJKfF1uCCw=="></enclosure>
+        </item>
+        <item>
             <title>NetDeck 2.0.8</title>
             <pubDate>Sat, 14 Nov 2026 11:50:24 GMT</pubDate>
             <sparkle:version>208</sparkle:version>
@@ -79,6 +88,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: vXvBAoiWPflhGlD97tXIz47oqmcvXMHbHtcOrvFb2dP7DuGz96kylQFa7C0gxGo4D0F52T3acC0Lfr7mExs9AQ==
-length: 8385
+edSignature: YB+zRk7wXjT0DF+Gr8dTs0tgxMKMYI/nqcaR5HR1qr0KTlRMrd/gPCUqoc2YcRkhV1CFLbpJP3eH5uYteFFxAQ==
+length: 9542
 -->
