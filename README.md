@@ -21,7 +21,7 @@ NetDeck разработан, чтобы собрать повседневную
 
 | Платформа | Опубликованная версия | Загрузка |
 | --- | --- | --- |
-| macOS | NetDeck 2.0.20 (222) | [DMG](https://github.com/andruha2618/NetDeck/releases/download/macos-v2.0.20-b222/NetDeck-2.0.20-222-macOS.dmg) |
+| macOS | NetDeck 2.0.21 (223) | [DMG](https://github.com/andruha2618/NetDeck/releases/download/macos-v2.0.21-b223/NetDeck-2.0.21-223-macOS.dmg) |
 | Windows x64 | Rift Manager 2.0.4 (204), прежнее название | [Установщик](https://github.com/andruha2618/NetDeck/releases/download/windows-v2.0.4/RiftManager-2.0.4-204-Windows-x64-Setup.exe) · [Переносная версия](https://github.com/andruha2618/NetDeck/releases/download/windows-v2.0.4/RiftManager-2.0.4-204-Windows-x64.zip) |
 
 ### macOS
