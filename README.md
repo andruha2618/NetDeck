@@ -4,7 +4,7 @@
 
 NetDeck разработан, чтобы собрать повседневную работу с устройствами Apple в одном приложении: просматривать сведения об устройстве, управлять приложениями и IPA, переносить файлы и работать с локальными резервными копиями.
 
-[Скачать для macOS](https://github.com/andruha2618/NetDeck/releases/tag/v2.0.9) · [Скачать для Windows](https://github.com/andruha2618/NetDeck/releases/tag/windows-v2.0.4) · [Все выпуски](https://github.com/andruha2618/NetDeck/releases) · [Сообщить об ошибке](https://github.com/andruha2618/NetDeck/issues/new)
+[Скачать для macOS](https://github.com/andruha2618/NetDeck/releases/latest) · [Скачать для Windows](https://github.com/andruha2618/NetDeck/releases/tag/windows-v2.0.4) · [Все выпуски](https://github.com/andruha2618/NetDeck/releases) · [Сообщить об ошибке](https://github.com/andruha2618/NetDeck/issues/new)
 
 ## Возможности
 
@@ -21,13 +21,13 @@ NetDeck разработан, чтобы собрать повседневную
 
 | Платформа | Опубликованная версия | Загрузка |
 | --- | --- | --- |
-| macOS | NetDeck 2.0.9 (209) | [DMG](https://github.com/andruha2618/NetDeck/releases/download/v2.0.9/NetDeck-2.0.9-209-macOS.dmg) · [ZIP](https://github.com/andruha2618/NetDeck/releases/download/v2.0.9/NetDeck-2.0.9-209-macOS.zip) |
+| macOS | NetDeck 2.0.20 (222) | [DMG](https://github.com/andruha2618/NetDeck/releases/download/macos-v2.0.20-b222/NetDeck-2.0.20-222-macOS.dmg) |
 | Windows x64 | Rift Manager 2.0.4 (204), прежнее название | [Установщик](https://github.com/andruha2618/NetDeck/releases/download/windows-v2.0.4/RiftManager-2.0.4-204-Windows-x64-Setup.exe) · [Переносная версия](https://github.com/andruha2618/NetDeck/releases/download/windows-v2.0.4/RiftManager-2.0.4-204-Windows-x64.zip) |
 
 ### macOS
 
 1. Закройте предыдущую версию приложения.
-2. Откройте DMG и перенесите `NetDeck.app` в папку «Программы». ZIP содержит то же готовое приложение.
+2. Откройте DMG и перенесите `NetDeck.app` в папку «Программы».
 3. Для работы с устройством подключите его, разблокируйте и подтвердите доверие к компьютеру.
 
 При переходе с Rift Manager существующие настройки сохраняются. Для функций Apple ID в версии 2.0.9 нужен новый вход при каждом запуске; код подтверждения запрашивается по требованию Apple.
